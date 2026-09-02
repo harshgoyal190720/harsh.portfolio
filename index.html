@@ -1,0 +1,1469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harsh Goyal | Software Engineer & B.Tech CSE @ LPU</title>
+  <meta name="description" content="Personal portfolio of Harsh Goyal, 2nd-year B.Tech CSE student at Lovely Professional University (LPU) with a 9.31 CGPA. Building software in AI/ML, React.js, and Web Development.">
+  <meta name="keywords" content="Harsh Goyal, Software Engineer, Portfolio, LPU, B.Tech CSE, TGPA Calculator, AuraBand, PlaceIQ, Harsh Codes">
+  <meta name="author" content="Harsh Goyal">
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Harsh Goyal — Software Engineer Portfolio">
+  <meta property="og:description" content="Building Software. Solving Problems. Creating Impact. B.Tech CSE @ LPU • 9.31 CGPA">
+  <meta property="og:image" content="assets/profile-avatar.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="home">
+
+  <!-- =========================================================================
+       CUSTOM CURSOR (Desktop only)
+       ========================================================================= -->
+  <div class="custom-cursor-dot" aria-hidden="true"></div>
+  <div class="custom-cursor-ring" aria-hidden="true">
+    <span class="custom-cursor-label"></span>
+  </div>
+
+  <!-- =========================================================================
+       NAVIGATION BAR
+       ========================================================================= -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" data-cursor="HG">
+        <div class="logo-badge">HG</div>
+        <span>Harsh Goyal</span>
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <nav class="nav-menu-wrapper" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#youtube" class="nav-link">YouTube</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-secondary btn-sm" data-resume-download data-cursor="Resume">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Resume</span>
+        </button>
+
+        <!-- Mobile Toggle Button -->
+        <button class="nav-toggle" aria-label="Open Navigation Menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Overlay -->
+  <div class="mobile-nav-overlay" aria-hidden="true">
+    <div class="mobile-nav-drawer">
+      <div class="mobile-drawer-header">
+        <div class="brand-logo">
+          <div class="logo-badge">HG</div>
+          <span>Harsh Goyal</span>
+        </div>
+        <button class="mobile-drawer-close btn-icon btn-secondary" aria-label="Close menu">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <ul class="mobile-nav-links">
+        <li><a href="#home" class="mobile-nav-link active">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#education" class="mobile-nav-link">Education</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#certifications" class="mobile-nav-link">Certifications</a></li>
+        <li><a href="#youtube" class="mobile-nav-link">YouTube</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+
+      <div style="margin-top: 2rem;">
+        <button class="btn btn-primary" style="width: 100%;" data-resume-download>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Download Resume</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- =======================================================================
+         3. HERO SECTION
+         ======================================================================= -->
+    <section class="hero-section" id="hero">
+      <canvas id="heroCanvas" class="hero-canvas"></canvas>
+      
+      <div class="container hero-content-grid">
+        <div class="hero-text">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>B.Tech CSE Student @ LPU • CGPA 9.31</span>
+          </div>
+
+          <h1 class="hero-title">
+            Building Software. <br>
+            <span class="gradient-text">Solving Problems.</span> <br>
+            Creating Impact.
+          </h1>
+
+          <p class="hero-description">
+            I’m Harsh Goyal, a second-year Computer Science and Engineering student at Lovely Professional University. I’m focused on strengthening my foundations in software engineering, data structures and algorithms, AI/ML, and modern web development while turning ideas into practical projects.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary btn-magnetic" data-cursor="Explore">
+              <span>View Projects</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+
+            <button class="btn btn-secondary btn-magnetic" data-resume-download data-cursor="Resume">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Resume</span>
+            </button>
+
+            <a href="#contact" class="btn btn-outline btn-magnetic" data-cursor="Connect" style="margin-left: 0.2rem;">
+              <span>Let's Connect</span>
+            </a>
+          </div>
+
+          <div class="hero-stats-row">
+            <div class="hero-stat-item">
+              <span class="hero-stat-value gradient-text">9.31</span>
+              <span class="hero-stat-label">Academic CGPA</span>
+            </div>
+            <div class="hero-stat-item">
+              <span class="hero-stat-value">2nd Year</span>
+              <span class="hero-stat-label">B.Tech CSE @ LPU</span>
+            </div>
+            <div class="hero-stat-item">
+              <span class="hero-stat-value">5+</span>
+              <span class="hero-stat-label">Technical Projects</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Profile Visual -->
+        <div class="hero-visual-wrapper">
+          <div class="profile-glow-ring"></div>
+          
+          <div class="hero-floating-badge badge-top-left">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--accent-cyan);">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+            <span>9.31 CGPA • LPU</span>
+          </div>
+
+          <div class="profile-card-container" data-cursor="Harsh">
+            <div class="profile-image-box">
+              <img 
+                src="assets/profile.jpg" 
+                onerror="this.onerror=null; this.src='assets/profile-avatar.svg';" 
+                alt="Harsh Goyal — Software Engineer" 
+                class="profile-photo"
+              >
+            </div>
+          </div>
+
+          <div class="hero-floating-badge badge-bottom-right">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: #ef4444;">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            <span>Harsh Codes</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         4. ABOUT SECTION
+         ======================================================================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">About Me</div>
+          <h2 class="section-title">Turning Curiosity Into <span class="gradient-text">Practical Engineering</span></h2>
+          <p class="section-subtitle">Dedicated to mastering computer science fundamentals and crafting impactful software solutions.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-content">
+            <p>
+              I am a Computer Science and Engineering student with a strong interest in software development, artificial intelligence, and problem solving. I enjoy understanding real-world problems and transforming ideas into practical, user-focused solutions.
+            </p>
+            <p>
+              Alongside academics, I continuously experiment with new technologies through hands-on projects. My work spans web applications, AI-assisted career preparation, embedded systems, placement roadmaps, and technology focused on elderly safety.
+            </p>
+            <p>
+              I also enjoy sharing what I learn through <strong>Harsh Codes</strong>, my programming-focused YouTube channel.
+            </p>
+          </div>
+
+          <div class="about-highlights-grid">
+            <div class="stat-highlight-card">
+              <div class="stat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div class="stat-number">9.31 CGPA</div>
+              <div class="stat-title">Academic Excellence</div>
+            </div>
+
+            <div class="stat-highlight-card">
+              <div class="stat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <div class="stat-number">2nd Year</div>
+              <div class="stat-title">B.Tech CSE @ LPU</div>
+            </div>
+
+            <div class="stat-highlight-card">
+              <div class="stat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="stat-number">5+ Projects</div>
+              <div class="stat-title">Hands-on Engineering</div>
+            </div>
+
+            <div class="stat-highlight-card">
+              <div class="stat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+              </div>
+              <div class="stat-number">21-Day Bootcamp</div>
+              <div class="stat-title">Python Learning Series</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         5. EDUCATION SECTION (Dedicated section with ID: education)
+         ======================================================================= -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Education</div>
+          <h2 class="section-title">Academic <span class="gradient-text">Foundation</span></h2>
+          <p class="section-subtitle">Academic foundation and continuous technical growth.</p>
+        </div>
+
+        <div class="education-timeline">
+          <!-- B.Tech CSE -->
+          <div class="timeline-item">
+            <div class="timeline-node">
+              <div class="timeline-node-inner"></div>
+            </div>
+            <div class="education-card">
+              <div class="edu-header">
+                <div>
+                  <h3 class="edu-degree">B.Tech in Computer Science & Engineering</h3>
+                  <div class="edu-institution">Lovely Professional University</div>
+                </div>
+                <div class="edu-badge">2nd Year • CGPA: 9.31</div>
+              </div>
+              <p class="edu-desc">
+                Pursuing a Bachelor of Technology in Computer Science and Engineering, with a focus on programming, data structures and algorithms, software development, artificial intelligence, and problem solving.
+              </p>
+            </div>
+          </div>
+
+          <!-- Higher Secondary -->
+          <div class="timeline-item">
+            <div class="timeline-node">
+              <div class="timeline-node-inner"></div>
+            </div>
+            <div class="education-card">
+              <div class="edu-header">
+                <div>
+                  <h3 class="edu-degree">Higher Secondary Education</h3>
+                  <div class="edu-institution">Bhai Mastan Singh Public School</div>
+                  <div class="edu-location">Muktsar, Punjab</div>
+                </div>
+                <div class="edu-badge">Score: 75.8%</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Secondary Education -->
+          <div class="timeline-item">
+            <div class="timeline-node">
+              <div class="timeline-node-inner"></div>
+            </div>
+            <div class="education-card">
+              <div class="edu-header">
+                <div>
+                  <h3 class="edu-degree">Secondary Education</h3>
+                  <div class="edu-institution">D.A.V. Public School</div>
+                  <div class="edu-location">Muktsar, Punjab</div>
+                </div>
+                <div class="edu-badge">Score: 90.6%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         6. SKILLS SECTION
+         ======================================================================= -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Skills & Technologies</div>
+          <h2 class="section-title">Technical <span class="gradient-text">Proficiencies</span></h2>
+          <p class="section-subtitle">Core programming, computer science principles, web technologies, and developer tools.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming -->
+          <div class="skill-category-card">
+            <div class="skill-card-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Programming</h3>
+            </div>
+            <div class="skill-tags-list">
+              <span class="skill-pill">C</span>
+              <span class="skill-pill">C++</span>
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">JavaScript</span>
+            </div>
+          </div>
+
+          <!-- Web Development -->
+          <div class="skill-category-card">
+            <div class="skill-card-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Web Development</h3>
+            </div>
+            <div class="skill-tags-list">
+              <span class="skill-pill">HTML</span>
+              <span class="skill-pill">CSS</span>
+              <span class="skill-pill">React.js</span>
+            </div>
+          </div>
+
+          <!-- Computer Science -->
+          <div class="skill-category-card">
+            <div class="skill-card-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Computer Science</h3>
+            </div>
+            <div class="skill-tags-list">
+              <span class="skill-pill">Data Structures & Algorithms</span>
+              <span class="skill-pill">OOP</span>
+              <span class="skill-pill">Problem Solving</span>
+              <span class="skill-pill">Programming Fundamentals</span>
+            </div>
+          </div>
+
+          <!-- AI / ML -->
+          <div class="skill-category-card">
+            <div class="skill-card-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path>
+                  <path d="M12 6a6 6 0 0 0-6 6c0 2.2 1.2 4.1 3 5.2V16h6v1.2c1.8-1.1 3-3 3-5.2a6 6 0 0 0-6-6z"></path>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">AI / ML</h3>
+            </div>
+            <div class="skill-tags-list">
+              <span class="skill-pill">Artificial Intelligence</span>
+              <span class="skill-pill">Machine Learning Concepts</span>
+              <span class="skill-pill">AI-assisted Applications</span>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-category-card">
+            <div class="skill-card-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Tools</h3>
+            </div>
+            <div class="skill-tags-list">
+              <span class="skill-pill">Git</span>
+              <span class="skill-pill">GitHub</span>
+              <span class="skill-pill">VS Code</span>
+              <span class="skill-pill">Google Authentication</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         7. PROJECTS SECTION (STRICTLY ONLY 3 SPECIFIED PROJECTS)
+         ======================================================================= -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Featured Work</div>
+          <h2 class="section-title">Technical <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Real-world applications built with modern frameworks, AI concepts, and reliable software architecture.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 01: PlaceIQ (June 2026 - Latest) -->
+          <article class="project-card" data-cursor="Explore">
+            <div class="project-card-spotlight"></div>
+            <div class="project-details">
+              <div>
+                <div class="project-meta-row">
+                  <span class="project-number">Project 01 • Latest</span>
+                  <span class="project-date">June 2026</span>
+                </div>
+                <h3 class="project-title">PlaceIQ</h3>
+                <div class="project-subtitle">AI-Assisted Career Readiness Platform</div>
+                <p class="project-desc">
+                  A career readiness platform designed to help students evaluate their profile against target companies and identify areas for improvement before applying. Integrates resume parsing, skill gap analysis, and tailored interview preparation pathways.
+                </p>
+
+                <ul class="project-features-list">
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Resume analysis & extraction</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Company-specific profile assessment</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Skill-gap identification & radar</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Interactive mock tests</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Technical interview prep roadmap</span>
+                  </li>
+                </ul>
+
+                <div class="disclaimer-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                  </svg>
+                  <span>Note: PlaceIQ is an AI-assisted career preparation platform and does not claim to guarantee employment or hiring decisions.</span>
+                </div>
+
+                <div class="project-links-group">
+                  <a href="https://github.com/harshgoyal190720/PlaceIQ" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" data-cursor="Code">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                    </svg>
+                    <span>View GitHub Repo</span>
+                  </a>
+                  <a href="#contact" class="btn btn-secondary btn-sm" data-cursor="Connect">
+                    <span>Request Platform Demo</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-tech-tags" style="margin-top: 1.25rem;">
+                <span class="tech-tag">AI-Assisted</span>
+                <span class="tech-tag">Career Readiness</span>
+                <span class="tech-tag">Profile Analytics</span>
+                <span class="tech-tag">Python & NLP</span>
+              </div>
+            </div>
+
+            <!-- PlaceIQ Visual Workflow -->
+            <div class="project-visual-pane">
+              <div class="placeiq-workflow">
+                <div style="font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; color: var(--accent-cyan); margin-bottom: 0.25rem; font-weight: 700; text-align: center;">
+                  PlaceIQ Preparation Pipeline
+                </div>
+
+                <div class="workflow-step">
+                  <span class="workflow-step-num">1</span>
+                  <span class="workflow-step-label">Resume Analysis</span>
+                </div>
+                <div class="workflow-arrow">↓</div>
+
+                <div class="workflow-step">
+                  <span class="workflow-step-num">2</span>
+                  <span class="workflow-step-label">Company Match</span>
+                </div>
+                <div class="workflow-arrow">↓</div>
+
+                <div class="workflow-step">
+                  <span class="workflow-step-num">3</span>
+                  <span class="workflow-step-label">Skill Gap Analysis</span>
+                </div>
+                <div class="workflow-arrow">↓</div>
+
+                <div class="workflow-step">
+                  <span class="workflow-step-num">4</span>
+                  <span class="workflow-step-label">Mock Test</span>
+                </div>
+                <div class="workflow-arrow">↓</div>
+
+                <div class="workflow-step">
+                  <span class="workflow-step-num">5</span>
+                  <span class="workflow-step-label">Interview Preparation</span>
+                </div>
+                <div class="workflow-arrow">↓</div>
+
+                <div class="workflow-step" style="border-color: var(--accent-cyan); background: rgba(56, 189, 248, 0.12);">
+                  <span class="workflow-step-num" style="background: var(--accent-cyan); color: #080c14;">6</span>
+                  <span class="workflow-step-label" style="color: var(--accent-cyan);">Career Readiness</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02: 3-Year Placement Roadmap for a B.Tech CSE Student (March 2026) -->
+          <article class="project-card" data-cursor="Explore">
+            <div class="project-card-spotlight"></div>
+            <div class="project-details">
+              <div>
+                <div class="project-meta-row">
+                  <span class="project-number">Project 02</span>
+                  <span class="project-date">March 2026</span>
+                </div>
+                <h3 class="project-title">3-Year Placement Roadmap for a B.Tech CSE Student</h3>
+                <div class="project-subtitle">Strategic Curriculum Blueprint & Engineering Preparation Framework</div>
+                <p class="project-desc">
+                  A structured multi-year curriculum and roadmap blueprint designed to guide Computer Science engineering students through coding, core CS subjects, competitive programming, and interview readiness across each semester.
+                </p>
+
+                <ul class="project-features-list">
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Year-wise curriculum mapping (DSA, OS, DBMS, CN, System Design)</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Curated coding sheets (C++, Java/Python, LeetCode patterns)</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Core CS revision milestones and interview question banks</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Internship preparation timeline & resume construction guide</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Open-source documentation repository with Notion workspace</span>
+                  </li>
+                </ul>
+
+                <div class="project-links-group">
+                  <a href="https://github.com/harshgoyal190720/3yearsroadmap" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" data-cursor="Code">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                    </svg>
+                    <span>View GitHub Repo</span>
+                  </a>
+                  <a href="#youtube" class="btn btn-secondary btn-sm" data-cursor="Watch">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                      <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                    </svg>
+                    <span>Watch on Harsh Codes</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-tech-tags" style="margin-top: 1.25rem;">
+                <span class="tech-tag">Career Roadmap</span>
+                <span class="tech-tag">DSA Curriculum</span>
+                <span class="tech-tag">Core CS Subjects</span>
+                <span class="tech-tag">Interview Prep</span>
+              </div>
+            </div>
+
+            <!-- Roadmap Visual Progression Window -->
+            <div class="project-visual-pane">
+              <div class="ui-mock-window">
+                <div class="ui-window-bar">
+                  <div class="ui-dot"></div>
+                  <div class="ui-dot"></div>
+                  <div class="ui-dot"></div>
+                  <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); margin-left: 0.5rem;">placement-roadmap-cse.md</span>
+                </div>
+                <div class="ui-window-body">
+                  <div style="font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; color: var(--accent-cyan); margin-bottom: 0.6rem; font-weight: 700; text-align: center;">
+                    3-Year Placement Progression
+                  </div>
+
+                  <div style="display:flex; flex-direction:column; gap:0.5rem; font-size:0.75rem;">
+                    <div style="background:rgba(56,189,248,0.08); border-left:3px solid var(--accent-cyan); padding:0.45rem 0.6rem; border-radius:3px;">
+                      <div style="font-weight:700; color:var(--accent-cyan);">Year 1: Foundations & DSA</div>
+                      <div style="color:var(--text-muted); font-size:0.7rem;">C/C++, OOPs, Arrays, Trees, Sorting, Basic Math</div>
+                    </div>
+                    <div style="background:rgba(168,85,247,0.08); border-left:3px solid #a855f7; padding:0.45rem 0.6rem; border-radius:3px;">
+                      <div style="font-weight:700; color:#c084fc;">Year 2: Advanced Algo & Core CS</div>
+                      <div style="color:var(--text-muted); font-size:0.7rem;">Graphs, DP, OS, DBMS, Computer Networks, SQL</div>
+                    </div>
+                    <div style="background:rgba(16,185,129,0.08); border-left:3px solid #10b981; padding:0.45rem 0.6rem; border-radius:3px;">
+                      <div style="font-weight:700; color:#34d399;">Year 3: Projects, System Design & Prep</div>
+                      <div style="color:var(--text-muted); font-size:0.7rem;">Full-Stack / AI Projects, LLD, Mock Interviews, Placements</div>
+                    </div>
+                  </div>
+
+                  <div style="display:flex; justify-content:space-between; margin-top:0.75rem; padding-top:0.5rem; border-top:1px solid var(--border-subtle); font-family:var(--font-mono); font-size:0.7rem; color:var(--text-muted);">
+                    <span>Tier-1 Target Ready</span>
+                    <span style="color:#10b981; font-weight:700;">100% Comprehensive</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03: TGPA Calculator (January 2026) -->
+          <article class="project-card" data-cursor="Explore">
+            <div class="project-card-spotlight"></div>
+            <div class="project-details">
+              <div>
+                <div class="project-meta-row">
+                  <span class="project-number">Project 03</span>
+                  <span class="project-date">January 2026</span>
+                </div>
+                <h3 class="project-title">TGPA Calculator</h3>
+                <p class="project-desc">
+                  A responsive academic utility that simplifies semester performance tracking by allowing students to enter course credits and grades and calculate their TGPA efficiently with Google Authentication sync.
+                </p>
+
+                <ul class="project-features-list">
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>TGPA & CGPA calculation algorithms</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Course and credit management</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Google OAuth 2.0 Login</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Persistent local & cloud state</span>
+                  </li>
+                </ul>
+
+                <div class="project-links-group">
+                  <a href="https://github.com/harshgoyal190720/coxmic-jassi-academic-calculator" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" data-cursor="Code">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                    </svg>
+                    <span>View GitHub Repo</span>
+                  </a>
+                  <a href="https://github.com/harshgoyal190720/coxmic-jassi-academic-calculator#live-demo" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" data-cursor="View">
+                    <span>Live Demo</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">React.js</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Google Authentication</span>
+                <span class="tech-tag">Tailwind CSS</span>
+              </div>
+            </div>
+
+            <!-- Visual Showcase Pane -->
+            <div class="project-visual-pane">
+              <div class="ui-mock-window">
+                <div class="ui-window-bar">
+                  <div class="ui-dot"></div>
+                  <div class="ui-dot"></div>
+                  <div class="ui-dot"></div>
+                  <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); margin-left: 0.5rem;">tgpa-calculator.app</span>
+                </div>
+                <div class="ui-window-body">
+                  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; border-bottom:1px solid var(--border-subtle); padding-bottom:0.5rem;">
+                    <span style="font-size:0.85rem; font-weight:700; color:var(--accent-cyan);">Semester TGPA Estimator</span>
+                    <span style="font-family:var(--font-mono); font-size:0.75rem; background:rgba(16,185,129,0.15); color:#10b981; padding:0.2rem 0.5rem; border-radius:4px;">Google Authed</span>
+                  </div>
+                  <div style="display:grid; grid-template-columns: 1fr 1fr; gap:0.5rem; font-size:0.8rem; margin-bottom:0.8rem;">
+                    <div style="background:rgba(255,255,255,0.03); padding:0.5rem; border-radius:4px;">
+                      <span style="color:var(--text-muted); font-size:0.7rem;">Course: Data Structures</span>
+                      <div style="font-weight:700; color:var(--text-primary);">Grade: O (4 Credits)</div>
+                    </div>
+                    <div style="background:rgba(255,255,255,0.03); padding:0.5rem; border-radius:4px;">
+                      <span style="color:var(--text-muted); font-size:0.7rem;">Course: Operating Systems</span>
+                      <div style="font-weight:700; color:var(--text-primary);">Grade: A+ (4 Credits)</div>
+                    </div>
+                  </div>
+                  <div style="text-align:center; padding:0.8rem; background:linear-gradient(135deg, rgba(56,189,248,0.1), rgba(99,102,241,0.1)); border-radius:6px; border:1px solid rgba(56,189,248,0.2);">
+                    <div style="font-size:0.75rem; color:var(--text-secondary);">Calculated TGPA</div>
+                    <div style="font-family:var(--font-mono); font-size:1.5rem; font-weight:800; color:var(--accent-cyan);">9.42 / 10.0</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 04: Arduino Based Surveillance Monitoring System (December 2025) -->
+          <article class="project-card" data-cursor="Explore">
+            <div class="project-card-spotlight"></div>
+            <div class="project-details">
+              <div>
+                <div class="project-meta-row">
+                  <span class="project-number">Project 04</span>
+                  <span class="project-date">December 2025</span>
+                </div>
+                <h3 class="project-title">Arduino Based Surveillance & Monitoring System</h3>
+                <div class="project-subtitle">Smart Surveillance, Simplified • IoT & Embedded System</div>
+                <p class="project-desc">
+                  Real-time proximity detection and environmental monitoring using HC-SR04 ultrasonic sensor, DHT11, I2C LCD display, and active buzzer — powered by Arduino UNO. Integrates hardware decision pipeline polling every 500ms.
+                </p>
+
+                <!-- Project Metrics Strip -->
+                <div class="arduino-metrics-strip">
+                  <div class="arduino-metric-box">
+                    <div class="arduino-metric-val">20cm</div>
+                    <div class="arduino-metric-lbl">Alert Threshold</div>
+                  </div>
+                  <div class="arduino-metric-box">
+                    <div class="arduino-metric-val">500ms</div>
+                    <div class="arduino-metric-lbl">Polling Rate</div>
+                  </div>
+                  <div class="arduino-metric-box">
+                    <div class="arduino-metric-val">4</div>
+                    <div class="arduino-metric-lbl">Peripherals</div>
+                  </div>
+                  <div class="arduino-metric-box">
+                    <div class="arduino-metric-val">99%</div>
+                    <div class="arduino-metric-lbl">Accuracy</div>
+                  </div>
+                </div>
+
+                <ul class="project-features-list">
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Ultrasonic Detection:</strong> 2–400 cm range via HC-SR04 SONAR</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Environmental Sensing:</strong> Temp 0–50°C & Humidity 20–90% RH</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>I2C LCD 16×2 Display:</strong> Live sensor readouts at address 0x27</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Active Buzzer Alarm:</strong> Triggers on Digital Pin 8 within 500ms</span>
+                  </li>
+                </ul>
+
+                <div class="project-links-group">
+                  <a href="https://arduinosurveillance.vercel.app/#about" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" data-cursor="Code">
+                    <span>Explore Project</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </a>
+                  <a href="https://arduinosurveillance.vercel.app/#live-sim" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" data-cursor="View">
+                    <span>Live Simulation</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                    </svg>
+                  </a>
+                  <a href="https://github.com/harshgoyal190720/arduinosurveillance" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" data-cursor="Code">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                    </svg>
+                    <span>GitHub Code</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Arduino UNO</span>
+                <span class="tech-tag">C/C++</span>
+                <span class="tech-tag">HC-SR04 SONAR</span>
+                <span class="tech-tag">DHT11</span>
+                <span class="tech-tag">I2C LCD 16×2</span>
+              </div>
+            </div>
+
+            <!-- Visual Showcase Pane: Interactive Simulation Dashboard -->
+            <div class="project-visual-pane">
+              <div class="ui-mock-window">
+                <div class="ui-window-bar">
+                  <div class="ui-dot"></div>
+                  <div class="ui-dot"></div>
+                  <div class="ui-dot"></div>
+                  <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); margin-left: 0.5rem;">arduinosurveillance.vercel.app</span>
+                </div>
+                <div class="ui-window-body">
+                  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+                    <span style="font-size:0.8rem; font-weight:700; color:var(--accent-cyan);">Hardware Telemetry v1.0.0</span>
+                    <span id="simStateBadge" style="font-family:var(--font-mono); font-size:0.7rem; background:rgba(16,185,129,0.15); color:#10b981; padding:0.2rem 0.5rem; border-radius:4px; font-weight:700;">STANDBY NORMAL</span>
+                  </div>
+
+                  <!-- LCD Simulation Screen -->
+                  <div class="arduino-lcd-display" id="arduinoLcd">
+                    <div class="lcd-line" id="lcdLine1">SYSTEM_ONLINE</div>
+                    <div class="lcd-line" id="lcdLine2">T: 24°C  H: 52%</div>
+                  </div>
+
+                  <!-- Buzzer & Sensor Status -->
+                  <div style="display:grid; grid-template-columns: 1fr 1fr; gap:0.5rem; font-size:0.75rem; margin:0.75rem 0;">
+                    <div style="background:rgba(255,255,255,0.03); padding:0.45rem; border-radius:4px;">
+                      <div style="color:var(--text-muted); font-size:0.68rem;">HC-SR04 Active</div>
+                      <div style="font-weight:700; color:var(--text-primary);">Range: 2–400cm</div>
+                    </div>
+                    <div style="background:rgba(255,255,255,0.03); padding:0.45rem; border-radius:4px;">
+                      <div style="color:var(--text-muted); font-size:0.68rem;">Active Buzzer (Pin 8)</div>
+                      <div id="buzzerStatus"><span style="color:#10b981; font-weight:700;">BUZZER OFF (SILENT)</span></div>
+                    </div>
+                  </div>
+
+                  <!-- Simulation Mode Toggle Button -->
+                  <button type="button" class="arduino-sim-toggle-btn" id="arduinoSimToggle" data-cursor="Click">
+                    <span style="display:flex; align-items:center; gap:0.4rem;">
+                      <span style="width:8px; height:8px; background:#10b981; border-radius:50%; box-shadow:0 0 8px #10b981;"></span>
+                      🟢 STANDBY MODE — Monitoring...
+                    </span>
+                    <span style="font-size:0.75rem; text-decoration:underline;">Click to Toggle Alert</span>
+                  </button>
+
+                  <div class="arduino-components-pills">
+                    <span class="comp-pill">ATmega328P 16MHz</span>
+                    <span class="comp-pill">5V Reg</span>
+                    <span class="comp-pill">PCF8574 0x27</span>
+                    <span class="comp-pill">10µs TRIG</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 05: AuraBand (Nov – Dec 2025) -->
+          <article class="project-card" data-cursor="Explore">
+            <div class="project-card-spotlight"></div>
+            <div class="project-details">
+              <div>
+                <div class="project-meta-row">
+                  <span class="project-number">Project 05</span>
+                  <span class="project-date">November – December 2025</span>
+                </div>
+                <h3 class="project-title">AuraBand</h3>
+                <p class="project-desc">
+                  An elderly safety system focused on detecting potential falls and enabling timely assistance. The project explores how intelligent technology can contribute to safer and more independent living for elderly users.
+                </p>
+
+                <ul class="project-features-list">
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Fall detection heuristics</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Elderly safety telemetry</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Real-time monitoring concept</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Automated alert mechanism</span>
+                  </li>
+                </ul>
+
+                <div class="project-links-group">
+                  <a href="https://github.com/harshgoyal190720/auraband-fall-detection" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" data-cursor="Code">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                    </svg>
+                    <span>View GitHub Repo</span>
+                  </a>
+                  <a href="#contact" class="btn btn-secondary btn-sm" data-cursor="Connect">
+                    <span>Telemetry Docs</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">AI</span>
+                <span class="tech-tag">Elderly Safety</span>
+                <span class="tech-tag">Fall Detection</span>
+                <span class="tech-tag">IoT Concept</span>
+              </div>
+            </div>
+
+            <!-- Visual Showcase Pane -->
+            <div class="project-visual-pane">
+              <div class="ui-mock-window">
+                <div class="ui-window-bar">
+                  <div class="ui-dot"></div>
+                  <div class="ui-dot"></div>
+                  <div class="ui-dot"></div>
+                  <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); margin-left: 0.5rem;">AuraBand Telemetry Concept</span>
+                </div>
+                <div class="ui-window-body">
+                  <div style="display:flex; justify-content:space-between; margin-bottom:0.8rem;">
+                    <div style="display:flex; align-items:center; gap:0.4rem;">
+                      <span style="width:8px; height:8px; background:#10b981; border-radius:50%; box-shadow:0 0 8px #10b981;"></span>
+                      <span style="font-size:0.8rem; font-weight:600;">Sensor State: Active Monitoring</span>
+                    </div>
+                    <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--text-muted);">6-Axis IMU</span>
+                  </div>
+                  
+                  <div style="background:rgba(239,68,68,0.08); border:1px solid rgba(239,68,68,0.3); border-radius:6px; padding:0.8rem; margin-bottom:0.75rem;">
+                    <div style="display:flex; align-items:center; justify-content:space-between;">
+                      <span style="font-size:0.8rem; font-weight:700; color:#f87171;">Fall Detection Trigger System</span>
+                      <span style="font-family:var(--font-mono); font-size:0.7rem; background:rgba(239,68,68,0.2); color:#fca5a5; padding:0.15rem 0.4rem; border-radius:3px;">Threshold Check</span>
+                    </div>
+                    <p style="font-size:0.75rem; color:var(--text-secondary); margin-top:0.3rem;">
+                      Rapid deceleration pattern detected → Automated caregiver emergency notification broadcast.
+                    </p>
+                  </div>
+
+                  <div style="display:flex; gap:0.5rem;">
+                    <div style="flex:1; background:rgba(255,255,255,0.03); padding:0.5rem; border-radius:4px; text-align:center;">
+                      <div style="font-size:0.7rem; color:var(--text-muted);">Emergency Latency</div>
+                      <div style="font-family:var(--font-mono); font-weight:700; color:var(--accent-cyan);">&lt; 1.2s</div>
+                    </div>
+                    <div style="flex:1; background:rgba(255,255,255,0.03); padding:0.5rem; border-radius:4px; text-align:center;">
+                      <div style="font-size:0.7rem; color:var(--text-muted);">Assistance Mode</div>
+                      <div style="font-family:var(--font-mono); font-weight:700; color:#34d399;">Direct SOS Alert</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Global Explore All GitHub Repositories Banner -->
+        <div style="margin-top: 3.5rem; text-align: center; background: linear-gradient(135deg, rgba(14,21,36,0.8), rgba(20,30,51,0.8)); border: 1px dashed rgba(56,189,248,0.3); border-radius: var(--radius-lg); padding: 2.5rem; backdrop-filter: blur(12px);">
+          <div style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--accent-cyan); font-weight: 700; text-transform: uppercase; margin-bottom: 0.5rem;">Open Source & GitHub</div>
+          <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--text-primary); margin-bottom: 0.5rem;">Looking for More Code Repositories & Experiments?</h3>
+          <p style="color: var(--text-secondary); max-width: 540px; margin: 0 auto 1.5rem auto; font-size: 0.95rem;">
+            Explore Harsh Goyal's complete open-source contributions, algorithms, competitive programming solutions, and experimental projects on GitHub.
+          </p>
+          <a href="https://github.com/harshgoyal190720" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-cursor="Code">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+            </svg>
+            <span>Explore All Repositories on GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         8. CERTIFICATIONS SECTION
+         ======================================================================= -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Credentials</div>
+          <h2 class="section-title">Certifications & <span class="gradient-text">Specializations</span></h2>
+          <p class="section-subtitle">Verified training in programming fundamentals, problem solving, and technical communication.</p>
+        </div>
+
+        <div class="certifications-grid">
+          <!-- Cert 1: Python Programming Fundamentals -->
+          <div class="cert-card">
+            <div>
+              <div class="cert-badge-top">
+                <div class="cert-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <span class="cert-date">July 30, 2026</span>
+              </div>
+              <h3 class="cert-title">Programming Fundamentals using Python</h3>
+              <p class="cert-issuer">Infosys Springboard</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" data-cert-modal="python" data-cursor="View">
+              <span>View Certificate</span>
+            </button>
+          </div>
+
+          <!-- Cert 2: Design Thinking and Innovation -->
+          <div class="cert-card">
+            <div>
+              <div class="cert-badge-top">
+                <div class="cert-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
+                </div>
+                <span class="cert-date">July 14, 2026</span>
+              </div>
+              <h3 class="cert-title">Design Thinking and Innovation</h3>
+              <p class="cert-issuer">IIT Bombay • Coursera</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" data-cert-modal="design-thinking" data-cursor="View">
+              <span>View Certificate</span>
+            </button>
+          </div>
+
+          <!-- Cert 3: Computer Programming in C -->
+          <div class="cert-card">
+            <div>
+              <div class="cert-badge-top">
+                <div class="cert-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 20V10"></path>
+                    <path d="M12 20V4"></path>
+                    <path d="M6 20v-6"></path>
+                  </svg>
+                </div>
+                <span class="cert-date">May 21, 2026</span>
+              </div>
+              <h3 class="cert-title">Computer Programming</h3>
+              <p class="cert-issuer">NeoColab • iamneo & LPU</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" data-cert-modal="c-prog" data-cursor="View">
+              <span>View Certificate</span>
+            </button>
+          </div>
+
+          <!-- Cert 4: ESL002 Saylor Academy -->
+          <div class="cert-card">
+            <div>
+              <div class="cert-badge-top">
+                <div class="cert-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                </div>
+                <span class="cert-date">January 31, 2026</span>
+              </div>
+              <h3 class="cert-title">ESL002: Intermediate English</h3>
+              <p class="cert-issuer">Saylor Academy</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" data-cert-modal="esl" data-cursor="View">
+              <span>View Certificate</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         9. YOUTUBE SECTION (Harsh Codes — Separate Section)
+         ======================================================================= -->
+    <section class="section" id="youtube">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow" style="color: #ef4444; border-color: rgba(239, 68, 68, 0.3); background: rgba(239, 68, 68, 0.08);">
+            Knowledge Sharing
+          </div>
+          <h2 class="section-title">Teaching & <span class="gradient-text">Content Creation</span></h2>
+          <p class="section-subtitle">Empowering learners with structured programming fundamentals and hands-on coding series.</p>
+        </div>
+
+        <div class="youtube-container-card">
+          <div>
+            <div class="yt-channel-badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              <span>YouTube Channel</span>
+            </div>
+
+            <h3 class="yt-channel-title">Harsh Codes</h3>
+            <div class="yt-tagline">Learn. Code. Share.</div>
+
+            <p class="yt-desc">
+              Harsh Codes is my programming-focused YouTube channel where I share coding knowledge and help learners strengthen their programming fundamentals.
+            </p>
+
+            <div class="yt-featured-box">
+              <div class="yt-featured-tag">Featured Series & Mentorship</div>
+              <h4 class="yt-featured-title">Python 21-Day Bootcamp</h4>
+              <p class="yt-featured-desc">
+                A structured 21-day Python learning program designed to help learners develop programming fundamentals through progressive and practical learning.
+              </p>
+
+              <div style="border-top: 1px solid var(--border-subtle); margin-top: 0.85rem; padding-top: 0.85rem;">
+                <div class="yt-featured-tag" style="color: var(--accent-cyan);">Career Guidance • March 2026</div>
+                <h5 style="font-size: 1.05rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.3rem;">3-Year Placement Roadmap for a B.Tech CSE Student</h5>
+                <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5; margin-bottom: 0.8rem;">
+                  A semester-by-semester strategic roadmap guiding engineering undergraduates through Data Structures & Algorithms, full-stack projects, competitive programming, and interview preparation.
+                </p>
+              </div>
+              
+              <div class="yt-highlights-tags">
+                <span class="yt-tag">Python</span>
+                <span class="yt-tag">Placement Roadmap</span>
+                <span class="yt-tag">Teaching</span>
+                <span class="yt-tag">Programming fundamentals</span>
+                <span class="yt-tag">Career Guidance</span>
+                <span class="yt-tag">Knowledge sharing</span>
+              </div>
+            </div>
+
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-cursor="Watch">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              <span>Visit YouTube Channel</span>
+            </a>
+          </div>
+
+          <!-- Channel Visual Mockup -->
+          <div class="yt-preview-card">
+            <div class="yt-video-thumb">
+              <div class="yt-play-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                  <polygon points="6 4 20 12 6 20 6 4"></polygon>
+                </svg>
+              </div>
+            </div>
+            <div style="width: 100%; text-align: left;">
+              <h5 style="font-size: 1.05rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.25rem;">3-Year Placement Roadmap for B.Tech CSE</h5>
+              <p style="font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-mono);">Harsh Codes • Strategy & Guidance</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         10. LEARNING JOURNEY SECTION
+         ======================================================================= -->
+    <section class="section" id="journey">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Timeline</div>
+          <h2 class="section-title">Learning <span class="gradient-text">Journey</span></h2>
+          <p class="section-subtitle">Chronological progression of technical learning, certifications, and project milestones.</p>
+        </div>
+
+        <div class="journey-timeline-compact">
+          <!-- 2025 -->
+          <div class="journey-row left">
+            <div class="journey-content">
+              <div class="journey-year">2025</div>
+              <p class="journey-text">Strengthened programming fundamentals and began building practical projects.</p>
+            </div>
+            <div class="journey-pin"></div>
+          </div>
+
+          <!-- Nov – Dec 2025 -->
+          <div class="journey-row right">
+            <div class="journey-pin"></div>
+            <div class="journey-content">
+              <div class="journey-year">Nov – Dec 2025</div>
+              <p class="journey-text"><strong>Arduino Based Surveillance System</strong> & <strong>AuraBand</strong> elderly fall detection system.</p>
+            </div>
+          </div>
+
+          <!-- Jan 2026 -->
+          <div class="journey-row left">
+            <div class="journey-content">
+              <div class="journey-year">Jan 2026</div>
+              <p class="journey-text"><strong>TGPA Calculator</strong> with React.js and Google Authentication.</p>
+            </div>
+            <div class="journey-pin"></div>
+          </div>
+
+          <!-- March 2026 -->
+          <div class="journey-row right">
+            <div class="journey-pin"></div>
+            <div class="journey-content">
+              <div class="journey-year">March 2026</div>
+              <p class="journey-text"><strong>3-Year Placement Roadmap for a B.Tech CSE Student</strong> released on Harsh Codes.</p>
+            </div>
+          </div>
+
+          <!-- June 2026 -->
+          <div class="journey-row left">
+            <div class="journey-content">
+              <div class="journey-year">June 2026</div>
+              <p class="journey-text">C Programming certification and Design Thinking & Innovation certification.</p>
+            </div>
+            <div class="journey-pin"></div>
+          </div>
+
+          <!-- July 2026 -->
+          <div class="journey-row right">
+            <div class="journey-pin"></div>
+            <div class="journey-content">
+              <div class="journey-year">July 2026</div>
+              <p class="journey-text">Python Programming Fundamentals certification.</p>
+            </div>
+          </div>
+
+          <!-- 2026 -->
+          <div class="journey-row left">
+            <div class="journey-content">
+              <div class="journey-year">2026</div>
+              <p class="journey-text"><strong>PlaceIQ</strong>: AI-assisted career readiness platform.</p>
+            </div>
+            <div class="journey-pin"></div>
+          </div>
+
+          <!-- 2026 – Present -->
+          <div class="journey-row right">
+            <div class="journey-pin"></div>
+            <div class="journey-content">
+              <div class="journey-year">2026 – Present</div>
+              <p class="journey-text"><strong>Harsh Codes</strong>, Python 21-Day Bootcamp, and technical mentorship.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         11 & 12. CONTACT SECTION & DROP A MESSAGE FORM
+         ======================================================================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Get In Touch</div>
+          <h2 class="section-title">Let's Build Something <span class="gradient-text">Meaningful.</span></h2>
+          <p class="section-subtitle">Have a project idea, collaboration opportunity, or simply want to connect? Feel free to reach out.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Info Panel -->
+          <div class="contact-info-panel">
+            <div class="contact-direct-cards">
+              <!-- Email Card -->
+              <div class="direct-card">
+                <div class="direct-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="direct-meta">
+                  <span class="direct-label">Email</span>
+                  <a href="mailto:harshgoyal190720@gmail.com" class="direct-value" data-cursor="Email">harshgoyal190720@gmail.com</a>
+                </div>
+                <button class="copy-btn" data-copy="harshgoyal190720@gmail.com" title="Copy Email">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </button>
+              </div>
+
+              <!-- Phone Card -->
+              <div class="direct-card">
+                <div class="direct-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="direct-meta">
+                  <span class="direct-label">Phone</span>
+                  <a href="tel:+9194642188078" class="direct-value" data-cursor="Call">+91 94642188078</a>
+                </div>
+                <button class="copy-btn" data-copy="+91 94642188078" title="Copy Phone">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Social Links Placeholders -->
+            <div>
+              <span class="direct-label" style="display:block; margin-bottom: 0.6rem;">Social Profiles</span>
+              <div class="social-links-row">
+                <a href="https://linkedin.com/in/harshgoyal-placeholder" target="_blank" rel="noopener noreferrer" class="social-btn" data-cursor="Connect">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.25a1.64 1.64 0 1 0 0 3.28 1.64 1.64 0 0 0 0-3.28z"/>
+                  </svg>
+                  <span>LinkedIn</span>
+                </a>
+
+                <a href="https://github.com/harshgoyal190720" target="_blank" rel="noopener noreferrer" class="social-btn" data-cursor="Code">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                  </svg>
+                  <span>GitHub</span>
+                </a>
+
+                <a href="https://youtube.com/@harshcodes-placeholder" target="_blank" rel="noopener noreferrer" class="social-btn" data-cursor="Watch">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                  <span>YouTube</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Form Box (Drop a Message) -->
+          <div class="contact-form-box">
+            <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--text-primary); margin-bottom: 1.5rem;">Drop a Message</h3>
+            
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="formName" class="form-label">Name</label>
+                <input type="text" id="formName" name="name" class="form-input" placeholder="Your name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formEmail" class="form-label">Email</label>
+                <input type="email" id="formEmail" name="email" class="form-input" placeholder="Your email address" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formSubject" class="form-label">Subject</label>
+                <input type="text" id="formSubject" name="subject" class="form-input" placeholder="Project inquiry / Opportunity" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formMessage" class="form-label">Message</label>
+                <textarea id="formMessage" name="message" class="form-textarea" placeholder="Tell me about your thoughts or project..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;" data-cursor="Click">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span>Send Message</span>
+              </button>
+
+              <div id="formAlert" class="form-status-alert"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       18. FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="brand-logo">
+        <div class="logo-badge">HG</div>
+        <span>Harsh Goyal</span>
+      </div>
+
+      <div class="footer-quote">
+        “Learning. Building. Improving.”
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer Links">
+        <a href="https://linkedin.com/in/harshgoyal-placeholder" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+        <a href="https://github.com/harshgoyal190720" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+        <a href="https://youtube.com/@harshcodes-placeholder" target="_blank" rel="noopener noreferrer" class="footer-link">YouTube</a>
+        <a href="mailto:harshgoyal190720@gmail.com" class="footer-link">Email</a>
+      </nav>
+
+      <div class="footer-copyright">
+        © 2026 Harsh Goyal. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       GLOBAL PREVIEW MODAL (Certificates & Resume)
+       ========================================================================= -->
+  <div class="modal-overlay" id="globalModal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <h3 id="modalTitle" style="font-size: 1.3rem; font-weight: 700; color: var(--text-primary); margin-bottom: 1rem;"></h3>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
