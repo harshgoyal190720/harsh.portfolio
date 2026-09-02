@@ -618,9 +618,17 @@ function initModals() {
             </div>
           </div>
 
-          <div style="display: flex; gap: 0.8rem; justify-content: flex-end;">
+          <div style="display: flex; gap: 0.8rem; justify-content: flex-end; flex-wrap: wrap;">
+            <a href="assets/Harsh_Goyal_Resume.docx" download="Harsh_Goyal_Resume.docx" class="btn btn-primary btn-sm" data-cursor="Download">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download .DOCX Resume</span>
+            </a>
             <button class="btn btn-secondary btn-sm" onclick="window.print()">Print / Save PDF</button>
-            <a href="mailto:harshgoyal190720@gmail.com?subject=Resume%20Inquiry%20-%20Harsh%20Goyal" class="btn btn-primary btn-sm">Contact Harsh</a>
+            <a href="mailto:harshgoyal190720@gmail.com?subject=Resume%20Inquiry%20-%20Harsh%20Goyal" class="btn btn-secondary btn-sm">Contact Harsh</a>
           </div>
         </div>
       `;
