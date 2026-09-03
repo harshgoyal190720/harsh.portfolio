@@ -599,35 +599,37 @@ function initModals() {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
       const resumeHtml = `
-        <div style="padding: 1rem 0;">
-          <div style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 1.25rem; margin-bottom: 1.25rem;">
-            <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--text-primary); margin-bottom: 0.25rem;">Harsh Goyal</h3>
-            <p style="color: var(--accent-cyan); font-weight: 600;">B.Tech Computer Science & Engineering • 2nd Year • CGPA 9.31</p>
-            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.35rem;">Lovely Professional University • harshgoyal190720@gmail.com • +91 94642188078</p>
-          </div>
-          
-          <div style="display: flex; flex-direction: column; gap: 1rem; font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1.75rem;">
-            <div>
-              <h5 style="color: var(--text-primary); font-weight: 700; margin-bottom: 0.25rem;">Key Highlights:</h5>
-              <ul style="padding-left: 1.25rem; line-height: 1.6;">
-                <li>Academic Excellence: 9.31 CGPA at Lovely Professional University (10th: 90.6%, 12th: 75.8%).</li>
-                <li>Projects (5+ Projects): PlaceIQ (AI Career Readiness), 3-Year Placement Roadmap for B.Tech CSE, TGPA Calculator (React.js, Google Auth), Arduino Surveillance System (IoT/Embedded), AuraBand (Fall Detection).</li>
-                <li>Educator: Harsh Codes YouTube Channel, Python 21-Day Bootcamp, and B.Tech CSE Placement Roadmaps.</li>
-                <li>Skills: C, C++, Python, JavaScript, React.js, DSA, OOP, Systems Programming, IoT, Git, AI/ML.</li>
-              </ul>
-            </div>
+        <div style="padding: 0.5rem 0;">
+          <!-- Visual Preview of Exact Resume -->
+          <div style="margin-bottom: 1.25rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-subtle); background: #ffffff; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+            <a href="assets/Harsh_Goyal_Resume.pdf" target="_blank" rel="noopener noreferrer" style="display: block; position: relative;">
+              <img src="assets/resume-preview.jpg" alt="Harsh Goyal Resume Preview" style="width: 100%; height: auto; display: block; max-height: 480px; object-fit: contain; background: #fff;">
+              <div style="position: absolute; bottom: 8px; right: 8px; background: rgba(11, 15, 23, 0.85); color: var(--accent-cyan); font-size: 0.75rem; padding: 4px 10px; border-radius: 4px; font-family: var(--font-mono); border: 1px solid var(--border-subtle);">
+                Click to View Full PDF
+              </div>
+            </a>
           </div>
 
-          <div style="display: flex; gap: 0.8rem; justify-content: flex-end; flex-wrap: wrap;">
-            <a href="assets/Harsh_Goyal_Resume.docx" download="Harsh_Goyal_Resume.docx" class="btn btn-primary btn-sm" data-cursor="Download">
+          <div style="display: flex; gap: 0.6rem; justify-content: flex-end; flex-wrap: wrap;">
+            <a href="assets/Harsh_Goyal_Resume.pdf" download="Harsh_Goyal_Resume.pdf" class="btn btn-primary btn-sm" data-cursor="Download">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                 <polyline points="7 10 12 15 17 10"></polyline>
                 <line x1="12" y1="15" x2="12" y2="3"></line>
               </svg>
-              <span>Download .DOCX Resume</span>
+              <span>Download PDF Resume</span>
             </a>
-            <button class="btn btn-secondary btn-sm" onclick="window.print()">Print / Save PDF</button>
+            <a href="assets/Harsh_Goyal_Resume.docx" download="Harsh_Goyal_Resume.docx" class="btn btn-secondary btn-sm" data-cursor="Download">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+              <span>Download .DOCX</span>
+            </a>
+            <button class="btn btn-secondary btn-sm" onclick="window.print()">Print</button>
             <a href="mailto:harshgoyal190720@gmail.com?subject=Resume%20Inquiry%20-%20Harsh%20Goyal" class="btn btn-secondary btn-sm">Contact Harsh</a>
           </div>
         </div>
